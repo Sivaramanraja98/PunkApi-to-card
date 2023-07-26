@@ -1,8 +1,10 @@
+//Creating div element
 const container = document.createElement('div');
 container.className='container';
 container.id='background'
 document.body.appendChild(container);
 
+//Creating div element
 const cardRow = document.createElement('div');
 cardRow.className='row g-5 ';
 cardRow.id="row";
